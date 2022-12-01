@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "rockstar"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-ja9gc2cm5eqv"
+s3_prefix = "rockstar"
+region = "ap-south-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
